@@ -1,19 +1,16 @@
 import './App.css';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-// import ProductDetails from './pages/productDetails/ProductDetails';
+import ProductDetails from './pages/productDetails/ProductDetails';
 import Register from './pages/register/Register';
 import Login from './pages/login/Login';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from './components/navbar/Navbar'
+import Home from './pages/home/Home';
+import ProductCategory from './pages/productCategory/ProductCategory';
 import Cart from './pages/cart/Cart';
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import Navbar from './components/navbar/Navbar'
-// import Home from './pages/home/Home';
-// import ProductCategory from './pages/productCategory/ProductCategory';
-// import Cart from './pages/cart/Cart';
-// import Login from './pages/login/Login';
-// import Register from './pages/register/Register';
-// import Error from './pages/error/Error';
-// import Footer from './components/footer/Footer';
-// import CategoryItem from './components/categories/CategoryItem';
+import Error from './pages/error/Error';
+import Footer from './components/footer/Footer';
+import CategoryItem from './components/categories/CategoryItem';
 
 const theme = createTheme({
   palette: {
@@ -29,9 +26,9 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Navbar />
-      <ProductCategory />
+      {/* <ProductCategory /> */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/products/:category" element={<ProductCategory />} />
@@ -42,10 +39,7 @@ function App() {
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
-  </BrowserRouter>, */}
-  {/* <Register /> */}
-  {/* <Login /> */}
-  <Cart /> ,
+  </BrowserRouter>,
     </ThemeProvider>
   );
 }

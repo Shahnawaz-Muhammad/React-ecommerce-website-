@@ -63,7 +63,7 @@ const Navbar = () => {
               <Link to="/register" style={{ textDecoration: "none" }}>
                 <StyledTypography variant="body1">Register</StyledTypography>
               </Link>
-              <Link to="#" style={{ textDecoration: "none",marginLeft: "20px", }}>
+              <Link to="/cart" style={{ textDecoration: "none",marginLeft: "20px", }}>
               <Badge badgeContent={4} color="secondary">
               <ShoppingCartOutlinedIcon sx={{color:'#fff'}}/>
                 </Badge>

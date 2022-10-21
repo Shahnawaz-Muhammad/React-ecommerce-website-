@@ -5,7 +5,9 @@ import styled from "@emotion/styled";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 
-const Wrapper = styled(Box)({});
+const Wrapper = styled(Box)({
+  marginTop:'30px'
+});
 
 const Title = styled(Typography)({
   textAlign: "center",
