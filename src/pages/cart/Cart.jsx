@@ -63,7 +63,7 @@ const Details = styled(Box)({
 });
 
 const ProductTitle = styled(Typography)({
-
+  fontWeight:200
 })
 
 
