@@ -43,7 +43,7 @@ const Categories = () => {
   }]
 
   return (
-    <Box sx={{ marginTop: "30px", marginBottom: "20px" }}>
+    <Box sx={{ marginTop: "30px" }}>
       <Typography
         variant="h4"
         sx={{ textAlign: "center", marginBottom: "20px" }}

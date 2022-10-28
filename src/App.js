@@ -10,7 +10,7 @@ import ProductCategory from './pages/productCategory/ProductCategory';
 import Cart from './pages/cart/Cart';
 import Error from './pages/error/Error';
 import Footer from './components/footer/Footer';
-import CategoryItem from './components/categories/CategoryItem';
+// import CategoryItem from './components/categories/CategoryItem';
 
 const theme = createTheme({
   palette: {
